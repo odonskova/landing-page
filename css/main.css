@@ -1,0 +1,439 @@
+/* line 10, main.less */
+.h2 {
+  color: #ffffff;
+  font-size: 50px;
+}
+/* line 14, main.less */
+.h2:before {
+  content: "";
+  background: transparent;
+}
+/* line 20, main.less */
+body {
+  margin: 0 auto;
+  max-width: 1260px;
+}
+/* line 23, main.less */
+body h2 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  color: #808080;
+  padding-bottom: 5px;
+  display: inline-block;
+  position: relative;
+}
+/* line 32, main.less */
+body h2:before {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #868686;
+}
+/* line 43, main.less */
+body h2 span {
+  color: #fc635e;
+}
+/* line 48, main.less */
+body a.arrowDown {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fc635e;
+  border: 1px solid #fc635e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 45px;
+  height: 45px;
+}
+/* line 60, main.less */
+body a.arrowDown:hover {
+  background: #fc635e;
+  color: #ffffff;
+}
+/* line 66, main.less */
+body a.btn {
+  color: #fc635e;
+  text-decoration: none;
+  font-size: 22px;
+  border: 2px solid #fc635e;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+/* line 74, main.less */
+body a.btn:hover {
+  background: #fc635e;
+  color: #ffffff;
+}
+/* line 80, main.less */
+body p {
+  font-size: 25px;
+  color: #ffffff;
+}
+/* line 85, main.less */
+body .mainText {
+  text-align: center;
+}
+/* line 89, main.less */
+body header {
+  background: url("../images/background.png") no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  justify-content: space-around;
+}
+/* line 90, main.less */
+body header h2 {
+  color: #ffffff;
+  font-size: 50px;
+}
+/* line 14, main.less */
+body header h2:before {
+  content: "";
+  background: transparent;
+}
+/* line 100, main.less */
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* line 104, main.less */
+body header nav > a {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 109, main.less */
+body header nav > a img {
+  padding-right: 15px;
+  vertical-align: middle;
+}
+/* line 115, main.less */
+body header nav .logo:hover img {
+  opacity: 0.7;
+}
+/* line 119, main.less */
+body header nav menu {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+/* line 124, main.less */
+body header nav menu li {
+  padding-left: 15px;
+}
+/* line 127, main.less */
+body header nav menu li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* line 132, main.less */
+body header nav menu li a:hover {
+  color: #fc635e;
+  border-bottom: #fc635e solid 3px;
+  padding-bottom: 5px;
+}
+/* line 142, main.less */
+body .receive {
+  margin-top: 0;
+  text-align: center;
+  background: #ffffff;
+  padding: 70px 50px 10px 50px;
+  color: #868686;
+}
+/* line 149, main.less */
+body .receive p {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+/* line 155, main.less */
+body .icons {
+  display: flex;
+}
+/* line 158, main.less */
+body .icons h4 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+/* line 163, main.less */
+body .icons p {
+  font-size: 18px;
+  color: #808080;
+}
+/* line 168, main.less */
+body .icons div {
+  padding: 15px;
+}
+/* line 173, main.less */
+body .expand {
+  background: url("../images/expand/expand.png") no-repeat;
+  padding: 100px 100px 15px 100px;
+}
+/* line 174, main.less */
+body .expand h2 {
+  color: #ffffff;
+  font-size: 50px;
+}
+/* line 14, main.less */
+body .expand h2:before {
+  content: "";
+  background: transparent;
+}
+/* line 179, main.less */
+body .expand .mainText {
+  margin-bottom: 80px;
+  padding: 50px;
+  border: 15px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+/* line 188, main.less */
+body .process {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/* line 189, main.less */
+body .process .steps {
+  display: none;
+}
+/* line 197, main.less */
+body .process p {
+  color: #808080;
+}
+/* line 201, main.less */
+body .process p {
+  font-size: 22px;
+}
+/* line 205, main.less */
+body .process .back_process {
+  background-image: url("../images/process/process.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  min-width: auto;
+}
+/* line 215, main.less */
+body .worksFirst,
+body .worksThird {
+  background: #f2f2f2;
+}
+/* line 219, main.less */
+body .works {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 225, main.less */
+body .works .worksContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 232, main.less */
+body .works h3 {
+  text-transform: uppercase;
+  border-left: 10px solid #fc635e;
+  padding-left: 5px;
+  color: #808080;
+}
+/* line 239, main.less */
+body .works p {
+  font-size: 18px;
+  padding-bottom: 15px;
+  line-height: 1.5em;
+  color: #808080;
+}
+/* line 246, main.less */
+body .works .left {
+  max-width: 50%;
+}
+/* line 250, main.less */
+body .works .right {
+  max-width: 50%;
+}
+/* line 256, main.less */
+body .worksSecond .right {
+  order: 1;
+}
+/* line 260, main.less */
+body .worksSecond .left {
+  order: 2;
+}
+/* line 264, main.less */
+body .worksSecond h3 {
+  text-align: right;
+  border-left: none;
+  border-right: 10px solid #fc635e;
+  padding-right: 5px;
+}
+/* line 271, main.less */
+body .worksSecond p {
+  text-align: right;
+}
+/* line 276, main.less */
+body .portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+/* line 282, main.less */
+body .portfolio .btn {
+  margin: 40px 0;
+}
+/* line 286, main.less */
+body .portfolio .controls {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+/* line 295, main.less */
+body .portfolio .controls button {
+  color: #fc635e;
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-right: 45px;
+  margin-left: 45px;
+}
+/* line 304, main.less */
+body .portfolio .controls button:hover {
+  color: #e44640;
+  cursor: pointer;
+}
+/* line 311, main.less */
+body .portfolio .container-filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 317, main.less */
+body .portfolio .container-filter #ex1 {
+  background-image: url("../images/portfolio/sport.png");
+}
+/* line 321, main.less */
+body .portfolio .container-filter #ex2 {
+  background-image: url("../images/portfolio/img1.png");
+}
+/* line 325, main.less */
+body .portfolio .container-filter #ex3 {
+  background-image: url("../images/portfolio/bus.png");
+}
+/* line 329, main.less */
+body .portfolio .container-filter #ex4 {
+  background-image: url("../images/portfolio/envelope.png");
+}
+/* line 333, main.less */
+body .portfolio .container-filter #ex5 {
+  background-image: url("../images/portfolio/landingPage.png");
+}
+/* line 337, main.less */
+body .portfolio .container-filter #ex6 {
+  background-image: url("../images/portfolio/cars.png");
+}
+/* line 341, main.less */
+body .portfolio .container-filter div {
+  background-size: cover;
+  background-position: center center;
+  margin: 10px;
+  width: 250px;
+  height: 180px;
+}
+/* line 348, main.less */
+body .portfolio .container-filter div .fill {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  display: none;
+  position: relative;
+  margin: 0;
+  background: rgba(255, 72, 72, 0.75) url("../images/portfolio/plus.png") no-repeat center;
+}
+/* line 357, main.less */
+body .portfolio .container-filter div .fill p {
+  margin: 0;
+  padding: 10px;
+}
+/* line 363, main.less */
+body .portfolio .container-filter div:hover .fill {
+  display: block;
+  cursor: pointer;
+}
+/* line 371, main.less */
+body .team {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+/* line 378, main.less */
+body .team .team_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+/* line 383, main.less */
+body .team .team_container .team_members {
+  text-align: center;
+}
+/* line 387, main.less */
+body .team .team_container a {
+  color: #414141;
+  font-size: 10px;
+}
+/* line 391, main.less */
+body .team .team_container a:hover {
+  color: #868686;
+}
+/* line 396, main.less */
+body .team .team_container p {
+  color: #808080;
+}
+/* line 400, main.less */
+body .team .team_container h4 {
+  color: #414141;
+  padding-bottom: 5px;
+}
+/* line 404, main.less */
+body .team .team_container h4 span {
+  color: #e44640;
+}
+/* line 410, main.less */
+body .footer_container {
+  background: url("../images/footer.png") no-repeat;
+  min-height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 415, main.less */
+body .footer_container .footer_img {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+}
+/* line 419, main.less */
+body .footer_container .footer_img img {
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 0;
+}
